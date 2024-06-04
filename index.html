@@ -9,8 +9,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-      
+  
+      .bg-testimony{
+        background: url(./images/TESTIMONYBG.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        size: 20px;
+      }    
+
       .gradient-text {
       background: linear-gradient(to bottom, rgba(35, 74, 214, 1), rgba(213, 219, 242, 1));
       background-clip: text;
@@ -52,7 +60,7 @@
       <section class="">
         <section class="body bg-cover bg-no-repeat bg-center md:w-full justify-center w-full md:h-screen bg-mobile md:bg-desktop -z-40
         md:pb-0 pb-32">
-        <section class="relative z-10 w-full md:max-w-7xl max-w-lg mx-auto p-4 md:p-16">
+        <section class="relative z-10 w-full md:max-w-7xl max-w-lg mx-auto p-4 md:p-12">
             <nav class="container flex justify-between ">
         <img src="images/logo.png" alt="">
         <ul class="justify-between space-x-16 text-white md:flex hidden">
@@ -64,7 +72,7 @@
         
         <div class="space-x-4 text-white md:flex hidden">
             <a href="#">Log In</a>
-            <a href="#" class="bg-mblue inline-block px-4 py-2 rounded-3xl ">Sign up</a>
+            <a href="#" class="bg-mblue px-4 py-2 rounded-3xl text-center">Sign up</a>
         </div>
         
     </nav>
@@ -161,7 +169,7 @@
         <section class=" flex justify-center items-center md:flex-row flex-col mt-12 md:space-x-28 md:mb-0 mb-6">
 
 
-        <div class="bg-white py-12 px-12 rounded-3xl md:mb-0 mb-6 md:max-w-screen max-w-xl ">
+        <div class="bg-white py-12 md:px-12 px-10 rounded-3xl md:mb-0 mb-6 md:max-w-xl max-w-xs">
           <div class="">
             <h4 class="text-mblue text-2xl font-semibold mb-1">Multi-Account Integration</h4>
             <p class="text-gray-400 text-sm max-w-sm mb-3">Unify your financial world in one place. Connect and manage multiple financial accounts.
@@ -174,7 +182,7 @@
         </div>
 
 
-        <div class="bg-white py-12 px-12 rounded-3xl md:max-w-screen max-w-xl justify-center items-center">
+        <div class="bg-white py-12 md:px-12 px-10 rounded-3xl md:max-w-screen md:max-w-xl justify-center items-center max-w-xs">
           <div class="">
             <h4 class="text-mblue text-2xl font-semibold mb-1">Simplified Transaction Tracking</h4>
             <p class="text-gray-400 text-sm max-w-sm mb-3">Say goodbye to the hassle of manually categorizing
@@ -191,7 +199,7 @@
 
       </section>
       <section class="flex justify-center items-center md:flex-row flex-col md:mt-12 md:space-x-8 ">
-        <div class="bg-white py-6 px-12 justify-center items-center rounded-3xl flex md:flex-row flex-col md:mb-0 mb-6 ">
+        <div class="bg-white py-6 md:px-12 px-10 justify-center items-center rounded-3xl flex md:flex-row flex-col md:mb-0 mb-6 max-w-xs">
           <div class="md:mt-20 md:mb-0 mb-6">
             <h4 class="text-mblue text-2xl font-semibold mb-1">Streamlined Budgeting</h4>
             <p class="text-gray-400 text-sm max-w-sm">Achieve financial discipline with our
@@ -205,7 +213,7 @@
           </div>
         </div>
 
-        <div class="bg-contbg py-24 px-20 md:max-w-xl rounded-3xl justify-center items-center">
+        <div class="bg-contbg py-24 md:px-20 px-10 md:max-w-xl rounded-3xl justify-center items-center ">
           <div class="flex items-center justify-center max-w-60">
             <p class="text-white text-2xl text-center font-semibold ">Feel the next level of 
               financing app with
@@ -295,7 +303,7 @@
 
     <section class="flex justify-center items-center md:flex-row flex-col mt-14 md:space-x-6 space-y-6">
       <!-- basic plan -->
-      <div class="basic-plan border border-mblue bg-white rounded-xl py-20 px-10">
+      <div class="basic-plan border border-mblue bg-white rounded-xl py-20 md:px-10 px-4">
         <!-- icon -->
         <div class="w-10 mb-4">
           <img src="./images/basic.png" alt="">
@@ -329,7 +337,7 @@
       </div>
 
       <!-- premium plan -->
-      <div class="premium-plan border border-l-purple-500 bg-mblue rounded-xl py-20 px-10">
+      <div class="premium-plan border border-l-purple-500 bg-mblue rounded-xl py-20 md:px-10 px-4">
         <!-- icon -->
         <div class="flex space-x-44">
         <div class="justify-center items-center w-10 mb-4">
@@ -374,7 +382,7 @@
       </div>
 
       <!-- Business plan -->
-      <div class="classic-plan border border-mblue bg-white rounded-xl py-20 px-10">
+      <div class="classic-plan border border-mblue bg-white rounded-xl py-20 md:px-10 px-4">
         <!-- icon -->
         <div class="w-10 mb-4">
           <img src="./images/business.png" alt="">
@@ -412,23 +420,106 @@
     
       </section>
 
-      <section class="flex items-center justify-center ">
+      <section class="">
+        <div class="flex items-center justify-center">
         <div class="items-center justify-center text-center md:max-w-xl max-w-xs mt-10">
       <div class="bg-lpurple inline-block px-4 py-1 rounded-3xl items-center justify-center mb-6">
         <p class="gradient-text font-semibold">Testimonials</p>
     </div>
 
     <div class="text-center">
-      <p class="text-3xl font-bold mb-2">Showcasing Remarkable <span class="gradient-text">Success Stories</span> by Our Users</p>
+      <p class="text-3xl font-bold mb-2">Showcasing Remarkable <br> <span class="gradient-text">Success Stories</span> by Our Users</p>
 
       <p class="text-gray-400 text-sm">Highlight the Extraordinary Achievements and inspirational Transformations Experienced
         by Our Cherised Users On Their Remarkable Finanacial Odyssey</p>
     </div>
     </div>
+  </div>
+
+    <section id="testimony-design" class=" flex justify-center items-center text-center mt-8 md:flex-row flex-col md:space-x-10 space-y-6">
+      
+      <div id="con-1" class="md:bg-none bg-blue-50 border md:border-none md:rounded-none rounded-3xl border-purple-500 md:px-0 md:py-0 px-10 py-10">
+        <div class="w-60">
+          <img src="./images/tesimonyimg1.jpg" alt="">
+        </div>
+        <div class="bg-customgrey rounded-2xl py-3 mt-3">
+          <div class="flex justify-center items-center space-x-4">
+            <p class="font-semibold text-md">Michael Forrister</p>
+            <div class="-space-x-1">
+              <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+              <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+              <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+              <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+              <i class="fa-solid fa-star-half-stroke fa-xs text-yellow-400"></i>
+            </div>
+          </div>
+          <p class="text-xs font-thin text-gray-400 text-left ml-4 -mt-0.5">Budgeting Enthusiast</p>
+        </div>
+      </div>
+
+      
+
+<!-- testimony 2 -->
+<div id="con-2" class="md:bg-none bg-orange-50 space-y-4 border md:border-none md:rounded-none rounded-3xl border-purple-500 md:px-0 md:py-0 px-10 py-10">
+  <div class="w-60">
+    <img src="./images/testimonyimg2.jpg" alt="">
+  </div>
+  <div class="flex bg-testimony rounded-2xl justify-center items-center">
+    <p class="text-sm text-white leading-4 py-4 text-left">This platform has revolutionized <br>
+      how I manage my finances. I can <br>
+     access real-time data and <br>
+     valuable insights to make <br>
+     informed!</p>
+  </div>
+</div>
+
+  <div id="con-1" class="md:bg-transparent bg-fuchsia-50 border md:border-none md:rounded-none rounded-3xl border-purple-500 md:px-0 md:py-0 px-10 py-10">
+    <div class="bg-customgrey rounded-2xl py-3 mb-3">
+      <div class="flex justify-center items-center space-x-16">
+        <p class="font-semibold text-md">Zoey Lica</p>
+          <div class="-space-x-1">
+            <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+            <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+            <i class="fa-solid fa-star-half-stroke fa-xs text-yellow-400"></i>
+          </div>
+      </div>
+          <p class="text-xs font-thin text-gray-400 text-left ml-5 -mt-0.5">Family Financial Planner</p>
+    </div>
+    <div class="w-60">
+      <img src="./images/testimonyimg3.jpg" alt="">
+    </div>
+  </div>
+
+
+
+  <div id="con-3" class="md:bg-none bg-emerald-50 border md:border-none md:rounded-none rounded-3xl border-purple-500 md:px-0 md:py-0 px-10 py-10 ">
+    <div class="w-60">
+      <img src="./images/tesimonyimg1.jpg" alt="">
+    </div>
+    <div class="bg-customgrey rounded-2xl py-3 mt-3">
+      <div class="flex justify-center items-center space-x-16">
+        <p class="font-semibold text-md">Zach Son</p>
+        <div class="-space-x-1">
+          <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+          <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+          <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+          <i class="fa fa-star fa-xs text-yellow-400" aria-hidden="true"></i>
+          <i class="fa-solid fa-star-half-stroke fa-xs text-yellow-400"></i>
+        </div>
+      </div>
+      <p class="text-xs font-thin text-gray-400 text-left ml-5 -mt-0.5">Budgeting Enthusiast</p>
+    </div>
+  </div>
+
+    </section>
   </section>
 
       
   <p class="text-center text-sm font-normal mt-20 mb-10 text-gray-600">-Oops, sorry the journey ends here for now.. <br> <span class="gradient-text font-semibold">More coming Soon!</span> <br>(me sef don try i wan rest)</p>
+
+
       
 
 </body>
