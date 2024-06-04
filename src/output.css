@@ -1586,6 +1586,22 @@ video {
     margin-top: 5rem;
   }
 
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-80 {
+    margin-top: 20rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1628,6 +1644,14 @@ video {
 
   .md\:max-w-md {
     max-width: 28rem;
+  }
+
+  .md\:max-w-2xl {
+    max-width: 42rem;
+  }
+
+  .md\:max-w-3xl {
+    max-width: 48rem;
   }
 
   .md\:flex-row {
